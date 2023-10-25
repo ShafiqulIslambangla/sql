@@ -1,0 +1,579 @@
+192.168.1.172
+
+==APPLICATION==
+1.MONITOR
+2.SKS
+3.SNF
+===================
+REMOTE SERVER IP = 118.119.200.69(DESKTOP) password== MFI@Winos-benchm@rk#69
+MONITOR থাকবে
+ 1.NDP
+2.SNIJONI
+3.DKS
+4.HOPE
+5.KPUS
+6.AUS ENT
+ ======================
+REMOTE SERVER IP=202.4.119.187(DESKTOP)
+SKS 
+1.SKS
+2.RASA
+========================
+DATABASE
+1.MONITOR 
+2.SNFDB
+3.MFIDB
+=================
+SNFDB থাকবে =SNF NDP
+MFIDB থাকবে = SKS RASA
+ =======================database=============
+password= oraclE123#
+df -h
+shef dalelt
+192.168.1.170 এ ঢুকে
+top ->enter
+Check cpu %
+Check PID
+Then ctrl+c -> kill PID exam: kill 13320
+Top ->enter
+
+Open New terminal 
+
+sqlplus / as sysdba
+Startup
+
+Open New terminal 
+lsnrctl status
+ datadese down === shutdown immediate;
+==================================
+202.4.119.187
+user: administrator
+pass: MFI@Winos-benchm@rk#187
+==================PKSF=================
+PKSFIIS/PKSFIIS@118.179.200.66:3108/MONITOR
+==================================WASO============================================
+
+WASO/WASO@43.243.204.161:1521/WASO
+http://43.243.204.161:8889/forms/frmservlet?config=WASO
+USER =WASO
+PASS == WASO
+HOST=43.243.204.161
+SERVICE NAME =WASO
+ REMOTE ==administrator
+password==wcrCL@#321
+===================================HOPE===========
+HOPE/ABHOPE123@118.179.200.66:3108/MONITOR
+========================================VATBMARK==================================
+http://202.4.119.186:8889/forms/frmservlet?form=D:\PACKGING\ERP\MENU\VAT_MENU.fmx
+VATBMARK/VATBMARK@118.179.200.66:9091/DB12C
+USER=VATBMARK
+PASS=VATBMARK
+HOST=118.179.200.66
+SID DB12C
+administrator
+=======================HOPE==========
+HOPE/ABHOPE100@MONITOR
+=============================================SNF==================
+SNF/SNF1985@BEDB
+SNF/SNF1985@118.179.200.65:2021/SNFDB
+======================================================SHARP=======================
+ SHARP/SHARP@118.179.200.66:3108/MONITOR
+
+SHARP/SHARP125012@MONITOR    
+user ===SHARP
+pass==== SHARP
+host===118.179.200.66
+service==MONITOR
+ prot ==3108
+====================================================SKS===============================
+SKS/SKSPKADM@MFIDB
+SKS/SKSPKADM@118.179.200.68:7710/MFIDB.BE.COM
+USER==SKS
+PASS==SKSPKADM
+HOST===118.179.200.68
+PROT===1443
+======================================NDP==================================================ok
+NDP/NDPPKSFADM@NDPDB
+NDP/NDPPKSFADM@118.179.200.65:2021/SNFDB
+=================================
+NDP/NDPPKSFADM@118.179.200.66:3108/NDPDB  
+NDP/NDPPKSFADM@118.179.200.65:2021/SNFDB -----REPORT---
+USER=NDP
+PASS ==NDPPKSFADM
+HOST==118.179.200.66
+PROT== 31O8
+==========================================KAKYAR==========================================
+USER==KALYAR
+PASS === BMARK123#
+http://202.84.32.140:8889/forms/frmservlet?form=D:\PACKGING\ERP\ALLMENU.fmx
+KALYAR/BMARK123#@202.84.32.137:2150/kalyar
+==========================*RIC_DATABASE_NAME // RICDB*===============
+Remote IP  	103.254.85.43:840
+user name   administrator
+password    Admin@FM
+RIC SUPER USER PASSWORD: Admin@BTB
+
+
+==SNF SSH: 192.168.10.50 OLD
+
+((RIC)) 
+Software login           : RICMF/BRC1620@RICDB
+Database tode login      : RICMF/BRC1620@192.168.10.50:1521/RIC-BD.NET
+Report login  Local      : SNF/SNF1985@192.168.1.170:1521/SNFDB
+Report login  Global     : SNF/SNF1985@118.179.200.65:2021/SNFDB
+                         : RICMF/BRC1620@192.168.10.50:1521/ricdb.ric-bd.net
+apex_user_id             : REPORT/REPORT@192.168.10.50:1521/RICDB
+[5:12 PM, 9/18/2023] Nahian: ----------Ric SMS service----------------------------------------------------------------					
+192.168.10.210 --> D drive --> api-->5454 --> 			
+এখানে লিখতে হবে CMD then press Enter then write:  			
+java -jar লিখে tab দিলে  archive-0.0.1-SHAPSH01.jar আসবে then Press Enter
+========================================JAVATPOINT===================================
+https://www.javatpoint.com/javascript-tutorial
+
+=================================================VATBMARK===APEX=============================
+workspace === VATBMARK
+USER == BE_SAFIQ
+PASSWORD ==VATBMARK
+========================================HOPE===============================================
+HOPE/ASBSR123@118.179.200.66:3108/MONITOR
+ USER = HOPE
+PASSWORD ==ASBSR123@1
+ HOST= 18.179.200.66:
+PROT =3108
+MONITOR
+======================================= school========================================
+workspace === sh21641070
+user == shafiqulislam10747@gmail.com
+password === shafiqul
+========= MFI_WEB_DEV============================================================
+WORKSPACE == MFI_WEB_DEV
+USER == BE_SAFIQ
+PASS= BE_SHAFIQUL
+PASS BETEST=
+=======================oracle account password(#Shafiq1)  ================
+================oracle cloud password(@Shafiq1)
+=============MFI_WEB====
+WORKSPACE= MFI_WEB
+USER =  BE_SHOFIQ
+PASS = BE_SHOFIQ
+==============================================SKS=================================
+CADINTION ==SKS/SKSPKADM@118.179.200.68:1443/MFIDB.BE.COM
+NDP/NDPPKSFADM@118.179.200.65:2021/SNFDB/NDPDB
+user ===SKS
+pass==== SKSPKADM@
+host===118.179.200.68
+service==MFIDB.BE.COM
+ prot ==3108
+=====================================================CANERP========================
+Consolidated
+SKS/SKSPKADM@118.179.200.68:1443/MFIDB.BE.COM
+202.4.119.188
+MFI@Winos-benchm@rk#188
+=====form report===
+ mfi == SNF/SNF1985@snfdb
+hr== SNF/HRDED@HRDB
+
+192.168.1.172
+fmw12capp1#@172
+192.168.1.171
+171= snfmfhrmsrv1#
+ MF ==snf/SNF1985@BEDB
+=======apex ========================
+wors= BE_TRAINING
+pas= BE_SHAFIQ
+use = BE_SHAFIQ
+  ===================================
+202.4.119.188
+ADMINISTRATOR
+snfmfhrmsrv1#
+ ====block to block culculotion====setem
+==============================ok=====
+ WORKPACE = VATBMARK
+PASS = SHAFIQUL3041
+USER = shafiqulislam10747@gmail.com
+=============================================KALYAR1==========
+WORKSPACE NAME= KALYAR1
+USER_NAEM     = shafiqulislam10747@gmail.com
+PASS          = SHAFIQUL3041
+===============================
+WORKSPACE NAME= HR
+USER_NAEM     =shafiqulislam10747@gmail.com
+PASS          = SHAFIQUL3041
+
+==================================
+WORKSPACE NAME- VATBMARK
+USER_NAEM     - BE_NAHIAN
+PASS          - NAHU
+=========================apex=======
+workspace name= SHAFIQUL
+password =  SHAFIQUL 
+user name = shafiqulislam10747@gmail.com
+===============================
+shafiqulislam10747@gmail.com
+======================
+workspace = MICTOR
+user name = shafiq1997jam@gmail.com
+password = be_shafiq
+=====================
+GRANT EXECUTE ON GET_SAMITY_FW  TO SNFDARSHA
+
+CREATE SYNONYM SNFDARSHA.GET_SAMITY_FW FOR GET_SAMITY_FW
+
+ SELECT 'GRANT EXECUTE ON GET_SAMITY_FW  TO '||USER_NAME|| ';' FROM V$USER
+
+ SELECT 'CREATE SYNONYM '||USER_NAME||'.GET_SAMITY_FW FOR GET_SAMITY_FW;' FROM V$USER
+
+
+69 No Server
+============
+**DATABASE_NAEM // MONITOR** 
+            IP ADDRESS: 118.179.200.69
+            USER_NAME : Administrator
+            PASS      : MFI@Winos-benchm@rk#69
+
+==MONITOR_SSH
+==DATABASECONNCTION   : 192.168.1.7
+==USER_NAME           : oracle
+==PASSWORD            : oracle123
+===================================================
+86 No Server
+============
+**SKS_DATABASE_NAME // MFIDB** 
+        REMOT IP ADDRESS : 202.4.119.186
+        USER NAME        : Administrator
+        PASSWORD         : MFI@Winos-benchm@rk#186
+
+==SKS SSH                : 192.168.1.9
+==USER_NAME              : oracle
+==PASSWORD               : oracle123
+===================================================
+87 No Server
+============
+**SNF_DATABASE_NAME // SNFDB**
+        REMOT IP ADDRESS : 202.4.119.187
+        USER NAME        : Administrator
+        PASSWORD         : MFI@Winos-benchm@rk#187
+==SNF SSH                : 192.168.1.201 OLD
+                         : 192.168.1.170 NEW
+==USER_NAME              : oracle
+==PASSWORD               : oracle123
+
+====================
+
+ not found the function then secritp 
+
+SELECT 'CREATE OR REPLACE SYNONYM '||USER_NAME||'.CUM_VAL_PERIOD_EXT_AREA FOR CUM_VAL_PERIOD_EXT_AREA;' FROM V$USER WHERE USER_NAME IN (SELECT GRANTEE FROM  DBA_ROLE_PRIVS)
+
+SELECT 'GRANT EXECUTE ON CUM_VAL_PERIOD_EXT_AREA TO '||USER_NAME||';' FROM V$USER WHERE USER_NAME IN (SELECT GRANTEE FROM  DBA_ROLE_PRIVS)
+=============================sessetion kill=========
+select 'ALTER SYSTEM KILL SESSION '''||locks.sid||','||vs.serial#||''' IMMEDIATE;' KILL_SESSION_SCRIPT, vs.audsid audsid,
+locks.sid sid,
+vs.serial# serial#,
+vs.username oracle_user,
+vs.osuser os_user,
+vs.program program,
+vs.module module,
+round( locks.ctime/60, 2 ) lock_time_in_minutes,
+objs.owner object_owner,
+objs.object_name object_name,
+objs.object_type object_type
+FROM v$session vs,
+v$lock locks,
+dba_objects objs
+--,dba_tables tbls
+where locks.id1 = objs.object_id
+and vs.sid = locks.sid
+--and objs.owner = tbls.owner
+--and objs.object_name = tbls.table_name
+and objs.owner != 'SYS'
+--and locks.type = 'TM'
+AND round( locks.ctime/60, 2 ) > 1
+order by lock_time_in_minutes desc;
+================================================
+impdp KPUS_04/KPUS_04  directory=backup tables=KPUS.SAVE_BAL_WKYR dumpfile=MONITOR_30_04_2023.DMP logfile=full_2023.log content=data_only query='KPUS.SAVE_BAL_WKYR:"WHERE  company_branch_code='008'"' remap_schema=KPUS:KPUS_04
+
+
+CREATE TABLE  SNFJULY21.SAVINGS_INT_ACCRUED AS SELECT * FROM SNF.SAVINGS_INT_ACCRUED WHERE COMPANY_BRANCH_CODE='M000M'
+  
+
+impdp SNFJULY21/SNFJULY21  directory=backup tables=SNF.SAVINGS_INT_ACCRUED dumpfile=SNF_28_07_2022.DMP  logfile=full_2023.log query='snf.SAVINGS_INT_ACCRUED:"WHERE  company_branch_code='001'"'  content=data_only remap_schema=SNF:SNFJULY21
+
+SAVINGS_INT_ACCRUED
+
+
+impdp system/sys123  directory=backup schemas=seheo dumpfile=MONITOR_05_09_2023.DMP  logfile=full_2023.log  content=data_only 
+
+MFIMONITOR/MFIMONITORADMIN 
+
+MONITOR_05_09_2023.DMP
+
+impdp system/sys123  directory=backup schemas=NDPNPKSF content=data_only  dumpfile=MONITOR_05_09_2023.DMP logfile=full_2023.log 
+
+ORA-00604: error occurred at recursive SQL level 1
+ORA-08177: can't serialize access for this transaction
+--SET TRANSACTION ISOLATION LEVEL SERIALIZABLE;
+--ALTER SESSION SET SQL_TRACE=TRUE;
+
+SELECT 'CREATE OR REPLACE SYNONYM AAAA.'||OBJECT_NAME||' FOR '||OBJECT_NAME||';' FROM DBA_OBJECTS WHERE OWNER='SNF' AND OBJECT_TYPE IN ('TABLE','VIEW','PROCEDURE','FUNCTION','PACKAGE');
+
+SELECT 'GRANT SELECT,INSERT,UPDATE,DELETE ON '||OBJECT_NAME||'  TO AAAA;' FROM DBA_OBJECTS WHERE OWNER='SNF' AND  OBJECT_TYPE IN ('TABLE');
+
+SELECT 'GRANT SELECT ON '||OBJECT_NAME||'  TO AAAA;' FROM DBA_OBJECTS WHERE  OWNER='SNF' AND OBJECT_TYPE IN ('VIEW');
+
+SELECT 'GRANT EXECUTE ON '||OBJECT_NAME||'  TO AAAA;' FROM DBA_OBJECTS WHERE OWNER='SNF' AND  OBJECT_TYPE IN ('PROCEDURE','FUNCTION','PACKAGE');
+
+----------------------------------------
+
+SELECT 'CREATE OR REPLACE SYNONYM '||USER_NAME||'.ZZZZ FOR ZZZZ;' FROM V$USER WHERE USER_NAME IN (SELECT GRANTEE FROM DBA_ROLE_PRIVS)
+
+SELECT 'GRANT SELECT ON ZZZZ TO '||USER_NAME||';'FROM V$USER WHERE USER_NAME IN (SELECT GRANTEE FROM DBA_ROLE_PRIVS)
+
+----------------------------------------------
+
+
+SELECT 'GRANT ' ||GRANTED_ROLE||' TO '||GRANTEE||';' FROM DBA_ROLE_PRIVS WHERE GRANTEE IN 
+(SELECT USER_NAME FROM V$USER WHERE USER_NAME IN 
+(SELECT GRANTEE FROM DBA_ROLE_PRIVS))
+ORDER BY GRANTEE
+
+
+SELECT * FROM DBA_TAB_COLUMNS  WHERE OWNER='SEHEO' AND  OBJECT_TYPE IN ('TABLE')
+
+SELECT DISTINCT TABLE_NAME FROM USER_TAB_COLUMNS 
+
+SELECT 'REVOKE  UPDATE ON '||OBJECT_NAME||' FROM HO_AUDIT_OFFICER;'  FROM DBA_OBJECTS WHERE OWNER='NDP' AND  OBJECT_TYPE IN ('TABLE')
+AND OBJECT_NAME NOT IN ('A_ALL_TRANSACTION','LOAN_TRANS_COMPONENT_TAB','SAVE_TRANS_COMPONENT_TAB','PROCESS_CONTROL','A_MISC_PROFIT');
+
+SELECT 'CREATE USER ' ||USER_NAME||' IDENTIFIED BY ' ||USER_NAME||';' FROM V$USER WHERE USER_NAME IN 
+(SELECT GRANTEE FROM DBA_ROLE_PRIVS)
+ORDER BY USER_NAME
+
+
+Insert into V$USER (USER_NAME, USER_FULL_NAME) Values ('AAAA', 'AAAA');
+COMMIT;
+Insert into V$USER_BRANCH (USER_NAME, COMPANY_CODE, COMPANY_BRANCH_CODE)
+ Values('AAAA', '1111111', '000');
+Insert into V$USER_BRANCH (USER_NAME, COMPANY_CODE, COMPANY_BRANCH_CODE)
+ Values('BBBBBBBBBBB', '1111111', '000');
+COMMIT;
+alter session set "_ORACLE_SCRIPT"=true;
+CREATE USER AAAA
+  IDENTIFIED BY AAAA
+  DEFAULT TABLESPACE DATA_TS
+  TEMPORARY TABLESPACE TEMP
+  PROFILE DEFAULT
+  ACCOUNT UNLOCK;
+  -- 6 Roles for AAAA 
+  GRANT CONNECT TO AAAA;
+  GRANT AREA_MIS_OFFICER TO AAAA;
+  GRANT MIS_OFFICER TO AAAA;
+  GRANT RESOURCE TO AAAA;
+  ALTER USER AAAA DEFAULT ROLE ALL;
+  -- 2 System Privileges for AAAA 
+  GRANT CREATE SYNONYM TO AAAA;
+  GRANT UNLIMITED TABLESPACE TO AAAA;
+
+192.168.1.198
+root
+Bmarkapp1@
+==============================================
+Last login: Wed Jul 19 22:35:44 2023 from 202.4.119.187
+[oracle@monitor ~]$ impdp SHARP23/SHARP23  directory=backup tables=SHARP.A_MONTHLY_BAL dumpfile=MONITOR15_03_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:42:40 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+ORA-39002: invalid operation
+ORA-39070: Unable to open the log file.
+ORA-39087: directory name BACKUP is invalid
+
+
+[oracle@monitor ~]$ impdp SHARP23/SHARP23  directory=backup tables=SHARP.A_MONTHLY_BAL dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:43:23 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+ORA-39002: invalid operation
+ORA-39070: Unable to open the log file.
+ORA-39087: directory name BACKUP is invalid
+
+
+[oracle@monitor ~]$ impdp SHARP23/SHARP23  directory=backup tables=SHARP.SAVE_BAL_MNYR_COMPONENT dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:44:56 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "SHARP23"."SYS_IMPORT_TABLE_01" successfully loaded/unloaded
+Starting "SHARP23"."SYS_IMPORT_TABLE_01":  SHARP23/******** directory=backup tables=SHARP.SAVE_BAL_MNYR_COMPONENT dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23 
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+. . imported "SHARP23"."SAVE_BAL_MNYR_COMPONENT"         5.675 MB   60107 rows
+Job "SHARP23"."SYS_IMPORT_TABLE_01" successfully completed at Wed Jul 19 22:45:47 2023 elapsed 0 00:00:50
+
+[oracle@monitor ~]$ impdp SHARPAMB/SHARPAMB  directory=backup tables=SHARP.SAVE_BAL dumpfile=MONITOR_30_01_2022.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:48:05 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+ORA-39001: invalid argument value
+ORA-39000: bad dump file specification
+ORA-31640: unable to open dump file "/u01/backup/MONITOR_30_01_2022.DMP" for read
+ORA-27037: unable to obtain file status
+Linux-x86_64 Error: 2: No such file or directory
+Additional information: 7
+
+
+[oracle@monitor ~]$ impdp SHARPAMB/SHARPAMB  directory=backup tables=SHARP.SAVE_BAL dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:48:24 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "SHARPAMB"."SYS_IMPORT_TABLE_01" successfully loaded/unloaded
+Starting "SHARPAMB"."SYS_IMPORT_TABLE_01":  SHARPAMB/******** directory=backup tables=SHARP.SAVE_BAL dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23 
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+ORA-39034: Table TABLE_DATA:"SHARP23"."SAVE_BAL" does not exist.
+
+Job "SHARPAMB"."SYS_IMPORT_TABLE_01" completed with 1 error(s) at Wed Jul 19 22:49:11 2023 elapsed 0 00:00:47
+
+[oracle@monitor ~]$ impdp SHARPAMB/SHARPAMB  directory=backup tables=SHARP.SAVE_BAL dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:50:16 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "SHARPAMB"."SYS_IMPORT_TABLE_01" successfully loaded/unloaded
+Starting "SHARPAMB"."SYS_IMPORT_TABLE_01":  SHARPAMB/******** directory=backup tables=SHARP.SAVE_BAL dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23 
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+ORA-39034: Table TABLE_DATA:"SHARP23"."SAVE_BAL" does not exist.
+
+Job "SHARPAMB"."SYS_IMPORT_TABLE_01" completed with 1 error(s) at Wed Jul 19 22:51:05 2023 elapsed 0 00:00:49
+
+[oracle@monitor ~]$ impdp SHARPAMB/SHARPAMB  directory=backup tables=SHARP.SAVE_BAL_mnyr dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23
+
+Import: Release 19.0.0.0.0 - Production on Wed Jul 19 22:51:56 2023
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Master table "SHARPAMB"."SYS_IMPORT_TABLE_01" successfully loaded/unloaded
+Starting "SHARPAMB"."SYS_IMPORT_TABLE_01":  SHARPAMB/******** directory=backup tables=SHARP.SAVE_BAL_mnyr dumpfile=MONITOR_30_01_2023.DMP logfile=full_2023.log content=data_only remap_schema=SHARP:SHARP23 
+Processing object type DATABASE_EXPORT/SCHEMA/TABLE/TABLE_DATA
+. . imported "SHARP23"."SAVE_BAL_MNYR"                   1.087 GB 10850837 rows
+Job "SHARPAMB"."SYS_IMPORT_TABLE_01" successfully completed at Wed Jul 19 22:52:58 2023 elapsed 0 00:01:02
+
+===============
+DECLARE
+	
+V_INPUTKG NUMBER ;
+V_BALKG NUMBER ;
+V_GAIN NUMBER;
+V_OUPUT NUMBER;
+V_TOTAL NUMBER;
+BEGIN
+	V_INPUTKG:= NVL(:PD_LAM_DTL_UN12.TOTAL_INPUT_KG,0)+NVL(:PD_LAM_DTL_UN2.TOTAL_INPUT_KG,0); 
+	V_BALKG := NVL(:PD_LAM_DTL_UN12.TOTAL_BAL_KG,0) + NVL(:PD_LAM_DTL_UN2.TOTAL_BAL_KG,0);
+        V_OUPUT :=NVL(:PD_LAM_DTL_OUTPUT.TOTAL_OUTPUT_KG,0);
+         V_TOTAL :=(V_OUPUT- (V_INPUTKG-V_BALKG));
+	V_GAIN := V_TOTAL ;
+	
+:PD_LAM.WT_GAIN_KG:= V_GAIN ;
+EXCEPTION 
+	WHEN OTHERS THEN
+	:PD_LAM.WT_GAIN_KG:=555 ;
+END ;
+
+
+DECLARE	
+V_INPUTKG NUMBER ;
+V_BALKG NUMBER ;
+V_GAIN NUMBER;
+V_OUPUT NUMBER;
+V_TOTAL NUMBER;
+V_PCT NUMBER;
+BEGIN
+	V_INPUTKG:= NVL(:PD_LAM_DTL_UN12.TOTAL_INPUT_KG,0)+NVL(:PD_LAM_DTL_UN2.TOTAL_INPUT_KG,0); 
+	V_BALKG := NVL(:PD_LAM_DTL_UN12.TOTAL_BAL_KG,0) + NVL(:PD_LAM_DTL_UN2.TOTAL_BAL_KG,0);
+        V_OUPUT :=NVL(:PD_LAM_DTL_OUTPUT.TOTAL_OUTPUT_KG,0);
+         V_TOTAL :=(V_OUPUT- (V_INPUTKG-V_BALKG));
+	V_GAIN := V_TOTAL ;
+	V_PCT:=ROUND((V_TOTAL *100)/(V_OUPUT ),3);
+	
+:PD_LAM.WT_GAIN_PERCENT:=V_PCT ;
+
+EXCEPTION 
+	WHEN OTHERS THEN
+	:PD_PRINTING.WT_PERCENT:=555 ;
+END ;
+
+
+
+DECLARE 
+CURSOR C IS 
+SELECT   R.COMPANY_CODE, R. COMPANY_BRANCH_CODE, R.SR_NO, /*TO_CHAR(TO_DATE (R.SR_DATE,'DD/MM/RRRR'),'DD/MM/RRRR') AS */ TRUNC(R.SR_DATE),
+  R.JOB_NO ,J.JOB_NAME,R.CLIENT_CODE, J.CLIENT_NAME, R.JOB_DATE, 
+R.DEPT_CODE , D.DEPT_DESC, I.L5_DESC,S.UOM_CODE,U.UOM_NAME,S.STOCK_QTY, S.REQ_QTY, S.REQ_SIZE,S.ISSUE_SIZE,S.APPROVE_OTY, S. BALANCE,S.REMARKS,
+R.PREPARED_BY,R.PREPARED_BY,R.AUTHORIZED_BY1,R.AUTHORIZED_BY1
+FROM  PD_STORE_REQ R , PD_STORE_REQ_DTL S,JOB_CARD J, DEPT D,INV_PROD_MASTER I,UOM U
+WHERE R.JOB_NO = J. JOB_NO AND
+R. DEPT_CODE = D. DEPT_CODE AND 
+R.DEPT_GROUP_CODE= D.DEPT_GROUP AND 
+S.L1_CODE = I.L1_CODE AND 
+S.L2_CODE = I.L2_CODE AND 
+S.L3_CODE = I.L3_CODE AND 
+S.L4_CODE = I.L4_CODE AND 
+S.L5_CODE = I.L5_CODE  AND 
+R.SR_NO     = S.SR_NO AND 
+R.SR_DATE = S.SR_DATE AND 
+R.JOB_NO  =S.JOB_NO  AND 
+S.UOM_CODE = U.UOM_CODE AND
+R.SR_NO  = :PD_STORE_REQ.SR_NO AND
+R.SR_DATE = :PD_STORE_REQ.SR_DATE AND
+R.COMPANY_CODE=:PD_STORE_REQ.COMPANY_CODE AND
+R.COMPANY_BRANCH_CODE=:PD_STORE_REQ.COMPANY_BRANCH_CODE; 
+ 
+
+BEGIN
+NEXT_BLOCK;
+LAST_RECORD;
+NEXT_RECORD;
+--FOR R IN C
+--LOOP
+--:PD_STORE_REQ.COMPANY_CODE   := C.COMPANY_CODE;
+--:PD_STORE_REQ.COMPANY_BRANCH_CODE   := C.COMPANY_BRANCH_CODE;
+--:PD_STORE_REQ.SR_DATE   := C.SR_DATE;
+--:PD_STORE_REQ.JOB_NO   := C.JOB_NO;
+--:PD_STORE_REQ.CLIENT_CODE := C.CLIENT_CODE;
+--:PD_STORE_REQ.DEPT_CODE:=C.DEPT_CODE;
+
+
+--:ISSUE_SLIP_DTL.RECEIVE_DATE     := R.RECEIVE_DATE;
+--:STORE_PUR_REQ_DTL.EXPIRE_DATE := R.EXPIRE_DATE;
+
+NEXT_RECORD;
+--END LOOP;
+
+EXCEPTION
+WHEN OTHERS THEN
+NULL;
+
+
+
+END;
+

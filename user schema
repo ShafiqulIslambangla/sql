@@ -597,7 +597,7 @@ NEXT_RECORD;
 --FOR R IN C
 --LOOP
 --:PD_STORE_REQ.COMPANY_CODE   := C.COMPANY_CODE;
---:PD_STORE_REQ.COMPANY_BRANCH_CODE   := C.COMPANY_BRANCH_CODE;
+--:PD_STORE_REQ.COMPANY_BRANCH_CODE   := C.COMPANY_BRANCH_CODE;  
 --:PD_STORE_REQ.SR_DATE   := C.SR_DATE;
 --:PD_STORE_REQ.JOB_NO   := C.JOB_NO;
 --:PD_STORE_REQ.CLIENT_CODE := C.CLIENT_CODE;
@@ -746,4 +746,29 @@ ALTER TABLE SAVINGS_COLLECTION_CO ADD (
   REFERENCES SAVINGS_PRODUCT (SAVE_CODE)
   ENABLE VALIDATE);
   /
+
+
+
+=========================== APEX RDF CALL====================================
+var r_server = "http://202.4.119.186:8889/reports/rwservlet?destype=cache&desformat=pdf&userid=VATBMARK/VATBMARK@VATDB&REPORT=D:/PACKGING/ERP/REPORT/VAT/CREDIT_NOTE_SUMMARY.rdf&desname=CREDIT_NOTE_SUMMARY&server=rep_appsrv_vat";
+
+var r_company_code = $v("P137_COMPANY_CODE");
+var r_branch_code = $v("P137_COMPANY_BRANCH_CODE");
+var r_dept_name = $v("P137_DEPARTMENT_NAME");
+var r_store_name = $v("P137_STORE_NAME");
+var r_supplier = $v("P137_SUPPLIER");
+var r_pl1_code = $v("P137_PL1_CODE");
+var r_pl2_code = $v("P137_PL2_CODE");
+var r_pl3_code = $v("P137_PL3_CODE");
+var r_pl4_code = $v("P137_PL4_CODE");
+var r_pl5_code = $v("P137_PL5_CODE");
+var r_date_from = $v("P137_DATE_FROM");
+var r_date_to = $v("P137_DATE_TO");
+
+
+
+var r_link = ""+r_server+"&P_DEPT_CODE="+r_dept_name+"&P_SUPPLIER_CODE="+r_supplier+"&P_L2_CODE="+r_pl2_code+"&P_L3_CODE="+r_pl3_code+"&P_L4_CODE="+r_pl4_code+"&P_L5_CODE="+r_pl5_code+"&P_STORE_CODE="+r_store_name+"&P_DT_FROM="+r_date_from+"&P_DT_TO="+r_date_to+"";
+
+window.open(r_link);
+
 

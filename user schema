@@ -771,4 +771,42 @@ var r_link = ""+r_server+"&P_DEPT_CODE="+r_dept_name+"&P_SUPPLIER_CODE="+r_suppl
 
 window.open(r_link);
 
+===================================================================jasper report=======================================
+var report_server = "http://118.179.200.66:9092/Jasper/report?"; //report server link
+
+var report_name = "/VAT_REPORT_6_2_1_BANGLA"; //report name
+
+var RP_output_name = "VAT_REPORT_6_2_1_BANGLA."; //report name
+
+var report_format = "P116_REPORT_FORMAT";
+
+var data_source = $v("P0_JASPER_SOURCE");
+
+var ap_1 = $v("P116_COMPANY_CODE");           var rp_1 = "&P_COMPANY_CODE";
+var ap_2 = $v("P116_COMPANY_BRANCH_CODE");    var rp_2 = "&P_COMPANY_BRANCH_CODE";
+var ap_3 = $v("116_DEPARTMENT_NAME");         var rp_3 = "&P_DEPT_CODE";
+var ap_4 = $v("P116_STORE_NAME");             var rp_4 = "&P_STORE_CODE"; 
+var ap_5 = $v("P116_PRODUCT_NAME");           var rp_5 = "&P_CLIENT_CODE"; 
+var ap_6 = $v("P116_PL1_CODE");               var rp_6 = "&P_L1_CODE"; 
+var ap_7 = $v("P116_PL2_CODE");               var rp_7 = "&P_L2_CODE"; 
+var ap_8 = $v("P116_PL3_CODE");               var rp_8 = "&P_L3_CODE"; 
+var ap_9 = $v("P116_PL4_CODE");               var rp_9 = "&P_L4_CODE"; 
+var ap_10 = $v("P116_PL5_CODE");               var rp_10 = "&P_L5_CODE"; 
+var ap_11 = $v("P116_DATE_FROM");              var rp_11 = "&P_DATE_FROM"; 
+var ap_12 = $v("P116_DATE_TO");                var rp_12 = "&P_DATE_TO"; 
+
+//var param = ""+rp_1+"="+ap_1+""+rp_2+"="+ap_2+"";
+
+var param = ""+rp_1+"="+ap_1+""+rp_2+"="+ap_2+""+rp_3+"="+ap_3+""+rp_4+"="+ap_4+""+rp_5+"="+ap_5+""+rp_6+"="+ap_6+""+rp_7+"="+ap_7+""+rp_8+"="+ap_8+""+rp_9+"="+ap_9+""+rp_10+"="+ap_10
++""+rp_11+"="+ap_11+""+rp_12+"="+ap_12 +"";
+
+var report = ""+report_server+"&_repName="+report_name+"&_repFormat="+report_format+"&_dataSource="+data_source+"";
+            
+
+var run_report = ""+report+""+param+"";
+
+window.open(run_report) ;
+
+
+
 
